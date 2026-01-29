@@ -91,7 +91,7 @@ Burası sadece statik bir HTML sayfası değil, **Full Stack** çalışan yaşay
 
 1.  **Projeyi indirin**
     ```bash
-    git clone https://github.com/KULLANICI_ADINIZ/portfolio.git
+    git clone https://github.com/ozaiithejava/portfolio.git
     cd portfolio
     ```
 
