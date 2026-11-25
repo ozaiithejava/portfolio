@@ -104,7 +104,7 @@ function DockLink({ mousex, icon, href, label }: { mousex: MotionValue, icon: Re
 }
 
 function ThemeToggle({ mousex, theme, setTheme }: { mousex: MotionValue, theme: Theme, setTheme: (t: Theme) => void }) {
-    const themes: Theme[] = ['light', 'dark', 'intellij', 'dracula', 'cyberpunk', 'forest'];
+    const themes: Theme[] = ['light', 'obsidian', 'cyber', 'neon', 'graphite', 'velocity', 'forest'];
 
     const cycleTheme = () => {
         const currentIndex = themes.indexOf(theme);

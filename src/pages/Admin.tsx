@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { api } from '../lib/api';
 import { useNavigate } from 'react-router-dom';
-import { Trash, Plus, Save, LogOut } from 'lucide-react';
+import { Trash, Plus, LogOut } from 'lucide-react';
 
 export function Admin() {
     const navigate = useNavigate();
